@@ -1,3 +1,5 @@
+MAINTAINER Fran Tsao <tsao@gpul.org>
+
 FROM golang:latest AS builder
 RUN go get -u github.com/cloudflare/alertmanager2es
 WORKDIR /go/src/github.com/cloudflare/alertmanager2es
